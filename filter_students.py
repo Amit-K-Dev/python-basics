@@ -1,4 +1,4 @@
-# Filtering data using conditions inside list of dictionaries
+# Filtering students using a function
 
 students = [
     {"name": "Amit", "age": 27, "course": "CA-Intermediate"},
@@ -6,7 +6,13 @@ students = [
     {"name": "Sneha", "age": 26, "course": "MBA"}
 ]
 
-# Print students who are older than 25
-for student in students:
-    if student["age"] > 25:
-        print(student["name"], "-", student["course"])
+def filter_students_by_age(students, min_age):
+    """
+    Prints students whose age is greater than min_age
+    """
+    for student in students:
+        if student["age"] > min_age:
+            print(student["name"], "-", student["course"])
+
+# Function call
+filter_students_by_age(students, 25)
