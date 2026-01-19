@@ -8,11 +8,19 @@ students = [
 
 def filter_students_by_age(students, min_age):
     """
-    Prints students whose age is greater than min_age
+    Returns students whose age is greater than min_age
     """
+    filtered_students = []
+
     for student in students:
         if student["age"] > min_age:
-            print(student["name"], "-", student["course"])
+            filtered_students.append(student)
+
+    return filtered_students
+
 
 # Function call
-filter_students_by_age(students, 25)
+result = filter_students_by_age(students, 25)
+
+for student in result:
+    print(student["name"], "-", student["course"])
