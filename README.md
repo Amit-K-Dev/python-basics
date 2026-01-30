@@ -14,6 +14,7 @@ Practicing Python fundamentals with small, focused examples.
 - Filtering data using Python list comprehensions
 - Functions returning multiple values
 - Dictionary comprehensions for transforming data
+- Functions using comprehensions for clean data filtering
 
 ## Goal
 Build strong Python fundamentals by practicing one concept at a time and maintaining clean, readable code.
