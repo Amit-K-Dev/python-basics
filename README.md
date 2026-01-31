@@ -15,6 +15,7 @@ Practicing Python fundamentals with small, focused examples.
 - Functions returning multiple values
 - Dictionary comprehensions for transforming data
 - Functions using comprehensions for clean data filtering
+- Understand this keyword vs arrow functions
 
 ## Goal
 Build strong Python fundamentals by practicing one concept at a time and maintaining clean, readable code.
